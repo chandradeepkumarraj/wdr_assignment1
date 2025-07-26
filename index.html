@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assigment - College Fest 2025 Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             background-color: rgba(3, 212, 235, 0.25);
-            
+
         }
-       
     </style>
 </head>
 
@@ -20,9 +22,9 @@
 
         <h1>📚 <u>TechVerse 2025</u></h1>
         <h2>Organized by GNIOT</h2>
-        <p><b> 📅 Date:</b> 25th August 2025</p>
-        <p><b>⌛Time:</b> 10:00 AM onwards</p>
-        <p><b>📍 Venue:</b> GNIOT Campus,Greater Noida</p>
+        <p><b> <i class="fa-solid fa-calendar-day"></i> Date:</b> 25th August 2025</p>
+        <p><b><i class="fa-duotone fa-solid fa-clock"></i> Time:</b> 10:00 AM onwards</p>
+        <p><b><i class="fa-duotone fa-solid fa-location-dot"></i> Venue:</b> GNIOT Campus,Greater Noida</p>
     </header>
     <hr>
     <section>
@@ -68,7 +70,7 @@
     <hr>
     <section>
         <h2>📝 Register Now</h2>
-        <form action="#">
+        <form action="#" method="get">
             <fieldset>
                 <legend>Registration Form</legend>
                 <label for="fname">Full Name:</label><br>
@@ -86,18 +88,19 @@
                 </select>
                 <br><br>
                 <label for="Event">Select Events:</label><br>
-                <input type="checkbox" name="Guest Lecture" id="Guest Lecture" > <label for="Guest Lecture">Guest
+                <input type="checkbox" name="Guest Lecture" id="Guest Lecture"> <label for="Guest Lecture">Guest
                     Lecture</label><br>
-                <input type="checkbox" name="Hackathon" id="Hackathon" ><label for="Hackathon"> Hackathon</label> <br>
+                <input type="checkbox" name="Hackathon" id="Hackathon"><label for="Hackathon"> Hackathon</label> <br>
                 <input type="checkbox" name="Workshop" id="Workshop"><label for="Workshop"> Workshop</label> <br><br>
-                <input type="submit" value="Submit Registration">
+                <input type="submit" value="Submit Registration" onclick="alert('Thank you for registering in GNIOT TechVerse!');">
+                <!-- we don't use complete javascript here, alert will work without fill complete form also  -->
             </fieldset>
         </form>
     </section>
     <footer>
         <h2>🤝 Contact Us</h2>
         <p>✉︎ Email: <a href="mailto:event@gniot.edu">event@gniot.edu</a> <br>
-           ✆ Phone: +91-1234567890 <br> &copy; 2025 GNIOT. All rights reserved. </p>
+            ✆ Phone: +91-1234567890 <br> &copy; 2025 GNIOT. All rights reserved. </p>
     </footer>
 </body>
 
