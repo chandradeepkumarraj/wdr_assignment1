@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Head</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(20, 190, 190, 0.5);
+        }
+
+        .heading {
+            position: fixed;
+            width: 100%;
+            text-align: center;
+            z-index: 2;
+            
+
+
+
+            div {
+                border: 2px solid black;
+                border-radius: 30px;
+                background: #dbe309;
+                display: inline-block;
+                height: 20px;
+                width: 120px;
+                padding: 2px 0 6px;
+                margin-left: 2%;
+
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 600;
+                    font-size: 20px;
+                    font-weight: 700;
+
+                }
+
+
+            }
+
+            div:hover {
+                background-color: #33f40d;
+            }
+
+        }
+
+
+        .card {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            top: 50px;
+            background-color: #84eb6f;
+            border: 3px solid #000000;
+            box-shadow: #f2ff00 0 0 30px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 50px;
+            width: 60%;
+
+            #photo {
+                width: 200px;
+                height: 200px;
+                border-radius: 60%;
+                border: 5px solid #55ff00;
+                display: inline-block;
+                position: relative;
+
+
+
+            }
+        }
+        .card2 {
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            top: 20vh;
+            background-color: #dbbe17;
+            border: 3px solid #000000;
+            box-shadow: #ff0101 0 0 30px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 50px;
+            width: 60%;
+            
+            
+            
+            
+        }
+        .card3 {
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            top: 35vh;
+            background-color: #f59efa;
+            border: 3px solid #000000;
+            box-shadow: #002228 0 0 30px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 50px;
+            margin-bottom: 500px;
+            width: 60%;
+            
+            
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="heading">
+        <div><a href="#">Home</a></div>
+        <div><a href="#card2">About</a></div>
+        <div><a href="#card3">Contact Us</a></div>
+    </nav>
+    <main class="container">
+
+    <section class="card">
+        <img id="photo" src="https://images.pexels.com/photos/10163504/pexels-photo-10163504.jpeg"
+            alt="Profile Picture">
+        <h1>CHANDRADEEP KUMAR RAJ</h1>
+        <h2>Web Developer</h2>
+        <p>Welcome to my personal page! I am a passionate web developer with a keen interest in creating dynamic and
+            user-friendly websites. My journey in web development has been fueled by a love for coding and a desire to
+            bring ideas to life through technology.</p>
+
+
+
+    </section>
+    <article class="card2" id="card2">
+        <h1>My Journey</h1>
+        <p>From the first line of code I wrote, I knew that web development was calling me. Over the years, I have
+            honed my skills in various programming languages and frameworks, always striving to learn more and improve
+            my craft. My goal is to create websites that not only look great but also provide an exceptional user
+            experience.</p>
+        <p>Thank you for visiting my page! Feel free to connect with me through the links above.</p>
+    </article>
+    
+    <article class="card3" id="card3">
+        <h1>Contact Us</h1>
+        <p>Feel free to explore my work and get in touch if you have any questions or opportunities for collaboration. I am always open to new challenges and excited to work on innovative projects.</p>
+        <p>Let's create something amazing together!</p>
+    </article>
+    </main>
+
+</body>
+
+</html>
