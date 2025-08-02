@@ -94,13 +94,20 @@
         .donor-bg {
             background-color: #0AB1B1;
             color: #ffffff;
-
-        }
+            display: flex;
+            flex-direction: column;
+            align-items:  center;
+            
+            }
 
         .donor-flex {
             display: flex;
             justify-content: center;
             flex-direction: row;
+        }
+        .cd-size {
+            width: 13vw;
+            height: 16vh;
         }
 
         /* Footer section */
@@ -112,10 +119,6 @@
         .footer-txt-b {
             color: #000000;
         }
-
-
-
-
 
         .text {
             display: flex;
@@ -387,45 +390,45 @@
 
 
     <!-- Our Donor -->
-    <section class="donor donor-bg">
+    <section class="donor donor-bg pb-5 pt-3">
 
-        <h2 class=" h1 fw-bold text-center mb-3">Our Donors</h2>
-        <div id="carouselExampleInterval text-center mb-3" class="carousel" data-bs-ride="carousel">
+        <h2 class=" h1 fw-bold text-center mb-5">Our Donors</h2>
+        <div id="carouselExampleInterval text-center justify-content-center mb-3" class="carousel" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2000">
+                <div class="carousel-item active justify-content-center" data-bs-interval="2000">
 
                     <div class="row row-cols-5 g-3 text-center container-fluid">
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
                                     <img src="./asset/donor_1.jpg" class="img-fluid" alt="img1">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
                                     <img src="./asset/donor_2.png" class="img-fluid" alt="img2">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
                                     <img src="./asset/donor_7.png" class="img-fluid" alt="img7">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
                                     <img src="./asset/donor_4.png" class="img-fluid" alt="img4">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
-                                <div class="card-body">
+                            <div class="card cd-size">
+                                <div class="card-body ">
                                     <img src="./asset/donor_5.jpg" class="img-fluid" alt="image5">
                                 </div>
                             </div>
@@ -439,37 +442,37 @@
                 <div class="carousel-item" data-bs-interval="2000">
                     <div class="row row-cols-5 g-3 text-center container-fluid">
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
-                                    <img src="./asset/donor_6.jpg" class="img-fluid" alt="img6">
+                                    <img src="./asset/donor_6.jpg" class="img-fluid col-9" alt="img6">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
-                                    <img src="./asset/donor_3.jpg" class="img-fluid" alt="image3">
+                                    <img src="./asset/donor_3.jpg" class="img-fluid col-sm-6" alt="image3">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
-                                <div class="card-body">
+                            <div class="card cd-size">
+                                <div class="img">
                                     <img src="./asset/donor_8.jpg" class="img-fluid" alt="img8">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
                                     <img src="./asset/donor_9.png" class="img-fluid" alt="img9">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
-                                    <img src="./asset/donor_10.jpg" class="img-fluid" alt="img10">
+                                    <img src="./asset/donor_10.jpg" class="img-fluid col-9" alt="img10">
                                 </div>
                             </div>
                         </div>
@@ -484,35 +487,35 @@
                 <div class="carousel-item" data-bs-interval="2000">
                     <div class="row row-cols-5 g-3 text-center container-fluid">
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
                                     <img src="./asset/donor_11.png" class="img-fluid" alt="img11">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
-                                    <img src="./asset/donor_12.jpg" class="img-fluid" alt="img12">
+                                    <img src="./asset/donor_12.jpg" class="img-fluid col-6" alt="img12">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
-                                    <img src="./asset/donor_13.png" class="img-fluid" alt="img13">
+                                    <img src="./asset/donor_13.png" class="col-5" alt="img13">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
                                     <img src="./asset/donor_14.png" class="img-fluid" alt="img14">
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card cd-size">
                                 <div class="card-body">
                                     <img src="./asset/donor_15.png" class="img-fluid" alt="img15">
                                 </div>
@@ -527,12 +530,12 @@
             <!-- caroisel button -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                 data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
                 data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
                 <span class="visually-hidden">Next</span>
             </button>
 
@@ -618,33 +621,39 @@
         </section>
 
         <!--  brand Certified -->
-        <aside class="mt-5 mx-5">
+        <aside class="mt-5 ml-5">
 
             <div class="container my-4 text-center">
-                <div class="cols justify-content-center g-4 d-grid">
-                    <div class="col-6 col-md-4 col-lg-2 p-2">
-                        <img src="https://anudip.org/wp-content/uploads/2024/04/image-308.png" class="img-fluid"
-                            alt="CAF America">
+                <div class="d-flex flex-column justify-content-center">
+                    <div class="d-flex flex-row">
+                        <div class="p-0">
+                            <img src="https://anudip.org/wp-content/uploads/2024/04/image-308.png" width="150rem"
+                                height="85rem" alt="CAF America">
+                        </div>
+                        <div class="p-0">
+                            <img src="https://anudip.org/wp-content/uploads/2024/04/image-309.png" width="150rem"
+                                height="100vh" alt="GlobalGiving">
+                        </div>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <img src="https://anudip.org/wp-content/uploads/2024/04/image-309.png" class="img-fluid"
-                            alt="GlobalGiving">
+                    <div class="d-flex flex-row">
+                        <div class="p-0">
+                            <img src="https://anudip.org/wp-content/uploads/2024/04/image-310.png" class="footer-bg"
+                                width="130vw" height="32vh" alt="GiveIndia">
+                        </div>
+                        <div class="p-0">
+                            <img src="https://anudip.org/wp-content/uploads/2024/04/image-311.png" width="130vw"
+                                height="32vh" alt="Benevity">
+                        </div>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <img src="https://anudip.org/wp-content/uploads/2024/04/image-310.png" class="img-fluid"
-                            alt="GiveIndia">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <img src="https://anudip.org/wp-content/uploads/2024/04/image-311.png" class="img-fluid"
-                            alt="Benevity">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <img src="https://anudip.org/wp-content/uploads/2024/04/image-312.png" class="img-fluid"
-                            alt="YourCause">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <img src="https://anudip.org/wp-content/uploads/2024/04/image-313.png" class="img-fluid"
-                            alt="Additional Logo">
+                    <div class="d-flex flex-row">
+                        <div class="p-0">
+                            <img src="https://anudip.org/wp-content/uploads/2024/04/image-312.png" width="130vw"
+                                height="32vh" alt="YourCause">
+                        </div>
+                        <div class="p-0">
+                            <img src="https://anudip.org/wp-content/uploads/2024/04/image-313.png" width="130vw"
+                                height="32vh" alt="Additional Logo">
+                        </div>
                     </div>
                 </div>
             </div>
