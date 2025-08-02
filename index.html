@@ -696,7 +696,7 @@
         document.addEventListener('DOMContentLoaded', function () {
             var carousel = document.querySelector('#carouselExampleRide');
             if (carousel && typeof bootstrap !== 'undefined') {
-                var carouselInstance = bootstrap.Carousel.getOrCreateInstance(carousel, { interval: 1500, ride: 'carousel' });
+                var carouselInstance = bootstrap.Carousel.getOrCreateInstance(carousel, { interval: 500, ride: 'carousel' });
                 carouselInstance.cycle();
             }
         });
