@@ -55,7 +55,7 @@
         <button onclick="fizzBuzz()">11. FizzBuzz</button>
         <button onclick="palindromeChecker()">12. Palindrome Checker</button>
         <button onclick="quizApp()">Mini Project - Quiz App</button>
-        <button onclick="advancedGuessingGame()">Mini Project - Number Guessing Game</button>
+        <button onclick="GuessingGame()">Mini Project - Number Guessing Game</button>
     </div>
 
     <script>
@@ -166,6 +166,7 @@
         }
 
         function fizzBuzz() {
+		alert("Check Console for result");
             for (let i = 1; i <= 30; i++) {
                 if (i % 3 == 0 && i % 5 == 0) {
                     console.log("FizzBuzz");
