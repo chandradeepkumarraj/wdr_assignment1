@@ -18,20 +18,20 @@
 
 ## Assignment 4 
 ### JavaScript Program and Miniproject 
-- 1. Greet User
-- 2. Simple Calculator
-- 3. Age Checker
-- 4. Number Guessing
-- 5.Print 1 to 10
-- 6. Multiplication Table
-- 7. Sum of Even Numbers
-- 8. Shopping List
-- 9. Reverse an Array
-- 10. Search in Array
-- 11. FizzBuzz
-- 12. Palindrome Checker
-- Mini Project - Quiz App
-- Mini Project - Number Guessing Game
+ 1. Greet User
+ 2. Simple Calculator
+ 3. Age Checker
+ 4. Number Guessing
+ 5. Print 1 to 10
+ 6. Multiplication Table
+ 7. Sum of Even Numbers
+ 8. Shopping List
+ 9. Reverse an Array
+ 10. Search in Array
+ 11. FizzBuzz
+ 12. Palindrome Checker
+ Mini Project - Quiz App
+ Mini Project - Number Guessing Game
 
 ---
 
