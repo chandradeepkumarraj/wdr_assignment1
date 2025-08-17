@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-card {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  color: #9a9d9e;
+}
+
+#taskCheckbox:checked {
+  background-color: #ff0000; 
+  border-color: #000000; 
+}
