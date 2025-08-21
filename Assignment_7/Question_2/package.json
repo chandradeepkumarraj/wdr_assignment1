@@ -1,0 +1,8 @@
+{
+  "name": "question2",
+  "version": "1",
+  "description": "A Node.js project using CommonJS modules",
+  "main": "appES6.js",
+  "type": "module"
+
+  }
